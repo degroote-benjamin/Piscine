@@ -21,6 +21,24 @@ body
 	width: 100%;
 }
 
+header aside , header section
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover /*hover a css*/
+{
+  color: black;
+  text-decoration: underline;
+}
+
 /*
 
 end common rules
@@ -39,6 +57,7 @@ header figure
 {
   max-width: 10em;
   max-height: 10em;
+  margin: 2em;
 }
 
 header img
@@ -47,12 +66,84 @@ header img
   height: 100%;
 }
 
+header section
+{
+  width: 75%;
+}
+
+header aside
+{
+  width: 15%;
+}
+
+header h1
+{
+  text-align: center;
+}
 
 /*
 
 end header rules
 
 */
+
+/*
+
+nav rules
+
+*/
+
+.firstnav
+{
+  width: 100%;
+  margin: auto;
+}
+
+.firstnav ul
+{
+  width: 40%;
+  margin: auto;
+}
+
+.firstnav li
+{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5em;
+}
+
+/*
+
+end nav rules
+
+*/
+
+/*
+
+start slide rules
+
+*/
+
+
+.slide
+{
+  width: 100%;
+  height: 35em;
+}
+
+.mySlides
+{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+
+end slide rules
+
+*/
+
 
 /*
 
@@ -87,15 +178,3 @@ footer /* fix footer in the bot on the page*/
 end footer rules
 
 */
-
-.slide
-{
-  width: 100%;
-  height: 35em;
-}
-
-.mySlides
-{
-  width: 100%;
-  height: 100%;
-}
