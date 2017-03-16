@@ -21,7 +21,7 @@ body
 	width: 100%;
 }
 
-header aside , header section
+header aside , header section , footer nav , footer figure
 {
   display: inline-block;
   vertical-align: middle;
@@ -171,6 +171,36 @@ footer /* fix footer in the bot on the page*/
 {
 	display : table-row;
   height: 3em;
+}
+
+.imgfoot /*img social network in footer*/
+{
+  height: 60px;
+  width: 250px;
+}
+
+footer nav
+{
+  width: 75%;
+  margin: auto;
+}
+
+footer li
+{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3em;
+  margin-top: 1em;
+}
+
+footer ul
+{
+  margin-left: 8em;
+}
+
+footer figure
+{
+  width: 20%;
 }
 
 /*
