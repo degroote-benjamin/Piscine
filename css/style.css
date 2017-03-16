@@ -133,7 +133,7 @@ start slide rules
 .mySlides /*size for img in figure*/
 {
   width: 100%;
-  height: 35em;
+  height: 30em;
 }
 
 .slide
@@ -159,7 +159,7 @@ main rules
 {
   width: 70%;
   margin: auto;
-  height: 30em;
+  min-height: 41em;
 }
 
 .main h2 , .main p /*center h2 with p in main*/
@@ -171,7 +171,7 @@ main rules
 .piscine /*article with title , figure and p in index.html*/
 {
   max-width: 27%;
-  max-height:10em;
+  max-height:12em;
   margin: 2em;
 }
 
@@ -184,8 +184,24 @@ main rules
 .piscine h3
 {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0.5em;
 }
 
+.piscine p
+{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.main h2
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.piscine i
+{
+  float: right;
+}
 /*
 
 end main rules
@@ -234,8 +250,13 @@ footer ul /*margin ul from footer*/
 footer figure /*figure with social network img*/
 {
   width: 20%;
+  margin-left: 1em;
 }
 
+footer i
+{
+  margin-left: 0.5em;
+}
 /*
 
 end footer rules
