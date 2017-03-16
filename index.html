@@ -3,28 +3,42 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <title></title>
   </head>
   <body>
-    <img class="mySlides" src="http://www.waterair.fr/medias/Image/piscines/photos/zoom/celine_108.jpg">
-    <img class="mySlides" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSDtvNVtYObamM_370AprK-ix1P_7msT6hxx4MRaJegwSK5qUt-">
-    <img class="mySlides" src="http://www.art-piscine.fr/wp-content/uploads/2013/03/africa4.jpg">
-    <img class="mySlides" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSk_g2SzDuFngv2Tl2eviJaa-mmp_PDq6Jm_OkDhk6TLtlbIJ-2">
+    <!-- start of header -->
+    <header>
+      <aside class="">
+        <figure>
+            <img src="https://openclipart.org/image/2400px/svg_to_png/236801/Cartoon-Shark-2.png&disposition=attachment" alt="">
+        </figure>
+      </aside>
+    </header>
+
+    <!-- end of header -->
+
+    <figure class="slide">
+    <img class="mySlides" src="http://www.photopiscine.fr/wp-content/uploads/2011/03/pool2-884x390.jpg">
+    <img class="mySlides" src="http://www.guide-piscine.fr/medias/image/le_couloir_de_nage_exterieur_a_debordement_sur_largeur_par_esprit_piscine-3228-1200-630.jpg">
+    <img class="mySlides" src="http://www.guide-piscine.fr/medias/image/piscine-a-debordement-par-piscines-marinal-14296-1200-630.jpg">
+    <img class="mySlides" src="http://www.europiscineservices.com/content/bandeau/56b216832d824_constructeur-de-piscines.jpg">
+    </figure>
 
     <script type="text/javascript">
     var slideIndex = 0;
-carousel();
+    carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 5000); // Change image every 2 seconds
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 5 seconds
 }
     </script>
   </body>

@@ -1,5 +1,101 @@
+/*
+
+common rules
+
+*/
+
+*
+{
+  margin:0;
+  padding:0;
+}
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	display : table;
+	width: 100%;
+}
+
+/*
+
+end common rules
+
+*/
+
+
+/*
+
+header rules
+
+*/
+
+
+header figure
+{
+  max-width: 10em;
+  max-height: 10em;
+}
+
+header img
+{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+
+end header rules
+
+*/
+
+/*
+
+main rules
+
+
+*/
+
+
+/*
+
+end main rules
+
+*/
+
+
+
+/*
+
+footer rules
+
+*/
+
+footer /* fix footer in the bot on the page*/
+{
+	display : table-row;
+  height: 3em;
+}
+
+/*
+
+end footer rules
+
+*/
+
+.slide
+{
+  width: 100%;
+  height: 35em;
+}
+
 .mySlides
 {
   width: 100%;
-  height: 45em;
+  height: 100%;
 }
