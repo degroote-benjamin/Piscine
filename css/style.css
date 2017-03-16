@@ -21,7 +21,7 @@ body
 	width: 100%;
 }
 
-header aside , header section , footer nav , footer figure
+header aside , header section , footer nav , footer figure , .piscine
 {
   display: inline-block;
   vertical-align: middle;
@@ -38,6 +38,7 @@ a:hover /*hover a css*/
   color: black;
   text-decoration: underline;
 }
+
 
 /*
 
@@ -57,28 +58,32 @@ header figure
 {
   max-width: 10em;
   max-height: 10em;
-  margin: 2em;
+  margin: auto;
 }
 
 header img
 {
   width: 100%;
   height: 100%;
+  margin: 1em;
 }
 
 header section
 {
-  width: 75%;
+  width: 45%;
 }
 
 header aside
 {
-  width: 15%;
+  width: 25%;
 }
 
-header h1
+header h1 /*google fonts design title*/
 {
   text-align: center;
+  font-family: 'Nosifer', cursive;
+  color: darkblue;
+  font-size: 300%;
 }
 
 /*
@@ -93,19 +98,19 @@ nav rules
 
 */
 
-.firstnav
+.firstnav /*nav from the head of the page*/
 {
   width: 100%;
   margin: auto;
 }
 
-.firstnav ul
+.firstnav ul /*width and centre ul from firstnav*/
 {
   width: 40%;
   margin: auto;
 }
 
-.firstnav li
+.firstnav li /*inline li from firstnav */
 {
   display: inline-block;
   vertical-align: middle;
@@ -125,18 +130,16 @@ start slide rules
 */
 
 
-.slide
+.mySlides /*size for img in figure*/
 {
   width: 100%;
   height: 35em;
 }
 
-.mySlides
+.slide
 {
-  width: 100%;
-  height: 100%;
+  margin-top: 2em;
 }
-
 
 /*
 
@@ -152,6 +155,36 @@ main rules
 
 */
 
+.main /* width main from index.html*/
+{
+  width: 70%;
+  margin: auto;
+  height: 30em;
+}
+
+.main h2 , .main p /*center h2 with p in main*/
+{
+  text-align: center;
+  margin-top: 1em;
+}
+
+.piscine /*article with title , figure and p in index.html*/
+{
+  max-width: 29%;
+  max-height:10em;
+  margin: 2em;
+}
+
+.imgpisc /*img in piscine article*/
+{
+  width: 100%;
+  height: 12em;
+}
+
+.piscine h3
+{
+  text-align: center;
+}
 
 /*
 
@@ -170,7 +203,7 @@ footer rules
 footer /* fix footer in the bot on the page*/
 {
 	display : table-row;
-  height: 3em;
+  height: 5em;
 }
 
 .imgfoot /*img social network in footer*/
@@ -179,13 +212,13 @@ footer /* fix footer in the bot on the page*/
   width: 250px;
 }
 
-footer nav
+footer nav /* width and center footer nav*/
 {
   width: 75%;
   margin: auto;
 }
 
-footer li
+footer li /*inline footer li */
 {
   display: inline-block;
   vertical-align: middle;
@@ -193,12 +226,12 @@ footer li
   margin-top: 1em;
 }
 
-footer ul
+footer ul /*margin ul from footer*/
 {
   margin-left: 8em;
 }
 
-footer figure
+footer figure /*figure with social network img*/
 {
   width: 20%;
 }
