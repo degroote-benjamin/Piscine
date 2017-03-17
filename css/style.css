@@ -201,12 +201,12 @@ main rules
   float: right;
 }
 
-.mainprod h2
+.mainprod h2 /* h2 align in produit.html*/
 {
   text-align: center;
 }
 
-.mainprod p , .mainprod ul , .mainprod li , .mainprod h3 , .mainprod h2
+.mainprod p , .mainprod ul , .mainprod li , .mainprod h3 , .mainprod h2 /*google font and margin for all element in produit.html*/
 {
   margin-top: 1em;
   font-family: 'Roboto', sans-serif;
@@ -216,10 +216,64 @@ main rules
 {
   margin-left: 2em;
 }
+
 .mainprod a
 {
   float: right;
   margin-bottom: 5em;
+}
+
+label /*label from contact.html*/
+{
+  display: inline-block;
+  width: 100px;
+  margin-left: 5em;
+  vertical-align: top;
+}
+
+label,input,textarea,select /*margin in label input from contact.html*/
+{
+  margin-top: 2em;
+}
+
+form , iframe
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+iframe /*google map*/
+{
+  border:0;
+  width: 30em;
+  height: 25em;
+  margin-top: 5em;
+  margin-left: 7em;
+}
+
+.left1 /* move first element in right*/
+{
+  margin-left: 22em;
+}
+
+.contact /*form from contact.html*/
+{
+  border: 3px solid blue;
+  border-radius: 7%;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  width: 40%;
+}
+
+.formdevis
+{
+  display:block;
+  margin:auto;
+  width: 50%;
+  border: 3px solid blue;
+  border-radius: 7%;
+  margin-top: 2em;
 }
 /*
 
