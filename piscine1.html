@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Nosifer|Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <title>Megalodon pool</title>
+  </head>
+  <body>
+    <!-- start of header -->
+    <header>
+      <aside class="">
+        <figure>
+            <img src="https://openclipart.org/image/2400px/svg_to_png/236801/Cartoon-Shark-2.png&disposition=attachment" alt="">
+        </figure>
+      </aside>
+      <section>
+        <h1>Megalodon pool</h1>
+      </section>
+    </header>
+
+    <!-- end of header -->
+
+    <!-- start of nav -->
+      <nav class="firstnav">
+        <ul>
+          <li><a href="index.html"><i class="fa fa-home fa-4x" aria-hidden="true"></i></a></li>
+          <li><a href="piscine.html">Piscines</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+          <li><a href="produit.html">Produits annexes</a></li>
+        </ul>
+      </nav>
+
+    <!-- end of nav -->
+
+    <!-- start of main section -->
+      <section class="mainprod">
+        <figure class="slide">
+        <img class="myslides" src="http://s3-eu-west-1.amazonaws.com/assets.leaubienetre.com/images/files/000/000/258/carousel/leaubienetre-piscine-spa-bienetre-14.jpg?1427892827" alt="">
+        <img class="myslides" src="http://piscine.lareduc.com/photos/Piscine-enterr%C3%A9e-4.jpg" alt="">
+        <img class="myslides" src="https://s-media-cache-ak0.pinimg.com/originals/7e/34/ba/7e34ba32882ccc54210b16c94777e261.jpg" alt="">
+        <img class="myslides" src="https://s-media-cache-ak0.pinimg.com/originals/5e/f2/f5/5ef2f5742d71911b177a864c22a88786.jpg" alt="">
+        </figure>
+        <h2>Bien choisir sa piscine enterrée parmi les différents types</h2>
+        <p class="bold">Dans la famille des piscines enterrées, on distingue 3 types de piscine : la piscine en béton, la piscine coque, ou le kit piscine à enterrer. Quels sont leurs avantages et leurs inconvénients ?</p>
+        <h3>La piscine creusée en béton : la version classique</h3>
+        <p>la piscine creusée en béton impose de passer par un professionnel, car sa réalisation implique un certain nombre de travaux et de connaissances (en maçonnerie, en terrassement, en plomberie, en électricité...).</p>
+        <p><br>Il existe 3 sortes de piscines creusées en béton :<br></p>
+        <ul>
+          <li>La piscine en béton coulé. Le béton coulé est une technique de construction traditionnelle, réalisée avec un « coffrage perdu » où l'on coule du béton entre des planches de bois (les futures parois de la piscine) renforcées d'une armature en fer.</li>
+          <li>La piscine en béton projeté. C'est une technique plus complexe qui requiert un appareillage spécifique (machine à haute pression qui vient projeter le béton directement sur le ferraillage pour créer la structure du bassin), et qui est plus onéreuse que le béton coulé. On l'utilise surtout pour les piscines de forme libre.</li>
+          <li>La piscine maçonnée en parpaings. Les parois de la piscine sont montées avec des parpaings, et maintenues avec des poteaux verticaux et un ceinturage en béton armé. Ce type de construction permet de réaliser des piscines solides, et avec un budget moins important que les piscines en béton coulé ou projeté.</li>
+        </ul>
+      </section>
+
+    <!-- end of main section -->
+
+
+    <!-- start of footer -->
+
+     <footer>
+      <nav>
+        <ul>
+          <li class="left"><a href="#">Conditions générales de réservation</a></li>
+          <li><a href="#">Conditions générales de vente</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Devenez partenaires</a></li>
+        </ul>
+      </nav>
+      <figure>
+        <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+        <i class="fa fa-google-plus-official fa-4x" aria-hidden="true"></i>
+
+      </figure>
+    </footer>
+
+    <!-- end of footer -->
+
+    <!-- start script -->
+
+    <script type="text/javascript">
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("myslides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 5 seconds
+      }
+    </script>
+
+    <!-- end of script -->
+
+  </body>
+</html>

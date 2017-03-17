@@ -141,6 +141,13 @@ start slide rules
   margin-top: 2em;
 }
 
+.myslides /*size for img in figure*/
+{
+  width: 100%;
+  height: 30em;
+}
+
+
 /*
 
 end slide rules
@@ -155,7 +162,7 @@ main rules
 
 */
 
-.main /* width main from index.html*/
+.main , .mainprod /* width main from index.html*/
 {
   width: 70%;
   margin: auto;
@@ -193,7 +200,7 @@ main rules
   font-family: 'Roboto Mono', monospace;
 }
 
-.main h2
+.main h2 , .mainprod
 {
   font-family: 'Open Sans', sans-serif;
 }
@@ -201,6 +208,26 @@ main rules
 .piscine i
 {
   float: right;
+}
+
+.mainprod h2
+{
+  text-align: center;
+}
+
+.mainprod p , .mainprod ul , .mainprod li , .mainprod h3
+{
+  margin-top: 1em;
+}
+
+.mainprod li
+{
+  margin-left: 2em;
+}
+
+.mainprod ul
+{
+  margin-bottom: 5em;
 }
 /*
 
