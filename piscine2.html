@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link href="favicon.ico" rel="icon" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Nosifer|Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nosifer|Open+Sans|Roboto+Mono|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Megalodon pool</title>
   </head>
@@ -36,6 +36,25 @@
     <!-- end of nav -->
 
     <!-- start of main section -->
+    <section class="mainprod">
+      <figure class="slide">
+      <img class="mySlides" src="http://www.piscines-carrebleu.fr/sites/default/files/piscine-interieure.jpg" alt="">
+      <img class="mySlides" src="http://www.desjoyaux.fr/sites/desjoyaux.fr/files/images/piscine-interieure-3_0.jpg" alt="">
+      <img class="mySlides" src="http://www.desjoyaux.fr/sites/desjoyaux.fr/files/images/piscine-interieure-2_0.jpg" alt="">
+      </figure>
+      <h2>La piscine intérieure : guide pratique</h2>
+      <h3>Qu’est-ce qu’une piscine intérieure ?</h3>
+      <p>Le type de piscine le plus répandu reste sans conteste la piscine extérieure, qui est installée ou construite dans le jardin ou sur une terrasse. Mais si vous souhaitez profiter de votre piscine toute l’année, sans avoir à vous préoccuper de la saison ou de la météo, vous pouvez vous tourner vers une piscine intérieure, qui sera installée ou construite dans votre maison au moment de sa construction, ou encore dans une véranda, qui s’avère être une pièce idéale pour accueillir une piscine intérieure, en particulier si elle dispose d’un accès depuis l’intérieur de votre habitation et d’une ouverture sur l’extérieur.</p>
+      <h3>Les différents types de piscines intérieures</h3>
+      <p>Si vous êtes décidé(e) à installer une piscine à l’intérieur de votre habitation, vous allez à présent devoir vous pencher sur le type de piscine que vous souhaitez. En effet, il existe différentes sortes de piscine dont le l’installation, la durée de vie et les prix varient fortement :</p>
+      <ul>
+        <li>Vous pouvez prévoir l’installation d’une piscine intérieure en PVC également appelée piscine autoportante : vous n’aurez qu’à la monter lorsque vous le souhaitez et la replier lorsque vous ne vous en servez plus. Ces piscines sont peu onéreuses puisque leur prix tourne autour de 600 à 1000 €, en revanche elles ne sont pas vouées à rester installées de façon permanente et leur résistance est limitée ;</li>
+        <li>Les piscines en kit sont plus résistantes que les piscines en PVC, vous pouvez donc prévoir d’installer une piscine intérieure de ce genre dans votre habitation, moyennant 2 000 à 5 000 €. En revanche, n’oubliez pas qu’il s’agit de piscines standardisées et dont la taille est généralement réduite ;</li>
+        <li>Vous pouvez envisager l’installation d’une piscine intérieure coque qui est une piscine enterrée. Le modèle et la taille seront standardisés, mais elle présente une bonne résistance et requiert un budget de 30 000 € en moyenne ;</li>
+        <li>Enfin, vous pouvez faire construire une piscine intérieure en béton, dont vous pourrez choisir l’ensemble des matériaux, revêtements et finitions, ainsi que la taille. Pour ce type de piscine intérieure, vous devrez envisager un prix débutant à partir de 50 000 €.</li>
+      </ul>
+      <a href="devis.html" ><button type="button" name="button"><i class="fa fa-hand-o-right fa-4x" aria-hidden="true"></i>Demandez votre devis</button></a>
+    </section>
 
     <!-- end of main section -->
 
@@ -59,6 +78,28 @@
     </footer>
 
     <!-- end of footer -->
+
+    <!-- start script -->
+
+    <script type="text/javascript">
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 5 seconds
+      }
+    </script>
+
+    <!-- end of script -->
+
 
   </body>
 </html>

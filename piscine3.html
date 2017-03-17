@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link href="favicon.ico" rel="icon" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Nosifer|Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nosifer|Open+Sans|Roboto+Mono|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Megalodon pool</title>
   </head>
@@ -34,6 +34,30 @@
       </nav>
 
     <!-- end of nav -->
+    <!-- start of main section -->
+    <section class="mainprod">
+      <figure class="slide">
+      <img class="mySlides" src="http://www.piscines-carrebleu.fr/sites/default/files/piscine-interieure.jpg" alt="">
+      <img class="mySlides" src="http://www.desjoyaux.fr/sites/desjoyaux.fr/files/images/piscine-interieure-3_0.jpg" alt="">
+      <img class="mySlides" src="http://www.desjoyaux.fr/sites/desjoyaux.fr/files/images/piscine-interieure-2_0.jpg" alt="">
+      </figure>
+      <h2>Les piscines hors-sol : les différents types </h2>
+      <p>Plus économique et rapide à installer qu'une piscine creusée, la piscine hors-sol est un modèle de piscine qui séduit de plus en plus de particuliers. Mais entre les piscines hors-sol gonflables, autoportantes, tubulaires et en kit, comment être sûr de faire le bon choix ?</p>
+      <h3>Les piscines hors-sol autoportantes et gonflables : des piscines démontables que l'on sort uniquement l'été</h3>
+      <p>Les piscines démontables sont des piscines hors-sol très pratiques : on les installe en quelques heures quand les beaux jours sont là, et quand la saison de la baignade est terminée. Pas besoin d'hiverner sa piscine, il suffit de les démonter puis de les ranger jusqu'à l'été prochain ! On distingue 2 types principaux de piscines démontables :</p>
+      <ul>
+        <li>La piscine gonflable. La piscine gonflable, c'est la piscine hors-sol la plus économique et la plus facile à manipuler qui existe : il suffit d'être équipé d'un gonfleur de piscine pour la remplir d'air, et en quelques minutes, elle peut être remplie et utilisée ! Il en existe de très nombreux modèles, de différentes formes (des rondes, des ovales, des rectangulaires...) et de différentes tailles pour convenir à toutes les familles... même si la piscine gonflable est surtout utilisée par les enfants ! Bien entendu, ce type de piscine hors-sol est assez fragile : mieux vaut éviter de s'appuyer sur les bords, ou de donner des coups dans la structure car elle s'abîme assez rapidement.</li>
+        <li>La piscine autoportante. Également connue sous les noms de piscine autoportée ou de piscine autostable, la piscine autoportante est une piscine hors-sol que l'on peut apparenter à une piscine gonflable. En effet, pour monter une piscine autoportante, il faut simplement gonfler le boudin situé à la périphérie supérieure de la toile en PVC (le bassin de la piscine). Et ensuite... il suffit de remplir la piscine d'eau : petit à petit, la piscine va commencer à prendre forme, et devenir stable grâce à la pression de l'eau ! Attention : pour éviter qu'elle ne se déforme, qu'elle s'use prématurément ou qu'elle s'effondre, il faut impérativement installer la piscine autoportante sur une surface plane !</li>
+      </ul>
+      <h3>Les piscines en kit : des piscines plus esthétiques et plus solides</h3>
+      <ul>
+        <li>La piscine tubulaire. La piscine tubulaire ressemble à une piscine autoportante, car son bassin est constitué d'une toile en PVC. Mais grâce à l'armature de tubes en acier qui soutient le bassin et assure la rigidité de la structure, la piscine tubulaire est bien plus solide qu'une piscine gonflable classique. Généralement, les piscines tubulaires sont de forme ronde ou rectangulaire, et leurs dimensions peuvent atteindre les 10 m de longueur.</li>
+        <li>La piscine hors-sol rigide. La piscine hors-sol dite rigide est constituée de panneaux modulaires (en acier, en résine, en aluminium, en béton, en bois, en bois composite) à assembler pour former la structure du bassin et à recouvrir d'un liner pour en assurer l'étanchéité. Ce type de structure permet une plus grande variété au niveau des dimensions et des formes de la piscine, tout en garantissant une structure beaucoup plus solide et une construction pérenne. C'est pourquoi ce type de piscine hors-sol peut même être enterré, et rester dans le jardin toute l'année ! La piscine hors-sol présente également une dimension esthétique incomparable par rapport aux piscines gonflables... sans oublier que les panneaux modulaires peuvent souvent être recouverts d'un revêtement décoratif qui permet de mieux les intégrer dans le décor d'un jardin. La piscine hors-sol rigide la plus populaire qui connaît un succès inégalé auprès des particuliers ? C'est bien évidemment la piscine hors-sol en bois, un matériau chaleureux et authentique qui fait merveille dans tous types de paysages !</li>
+      </ul>
+      <a href="devis.html" ><button type="button" name="button"><i class="fa fa-hand-o-right fa-4x" aria-hidden="true"></i>Demandez votre devis</button></a>
+    </section>
+
+    <!-- end of main section -->
 
 
 
@@ -57,6 +81,27 @@
     </footer>
 
     <!-- end of footer -->
+
+    <!-- start script -->
+
+    <script type="text/javascript">
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 5 seconds
+      }
+    </script>
+
+    <!-- end of script -->
 
   </body>
 </html>

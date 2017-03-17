@@ -35,7 +35,6 @@ a
 
 a:hover /*hover a css*/
 {
-  color: black;
   text-decoration: underline;
 }
 
@@ -140,14 +139,6 @@ start slide rules
 {
   margin-top: 2em;
 }
-
-.myslides /*size for img in figure*/
-{
-  width: 100%;
-  height: 30em;
-}
-
-
 /*
 
 end slide rules
@@ -188,24 +179,24 @@ main rules
   height: 12em;
 }
 
-.piscine h3
+.piscine h3 /* google fonts for h3*/
 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 0.5em;
 }
 
-.piscine p
+.piscine p /* google fonts for p*/
 {
   font-family: 'Roboto Mono', monospace;
 }
 
-.main h2 , .mainprod
+.main h2 /*google fonts for h2*/
 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.piscine i
+.piscine i /*float right for the icon in article*/
 {
   float: right;
 }
@@ -215,18 +206,19 @@ main rules
   text-align: center;
 }
 
-.mainprod p , .mainprod ul , .mainprod li , .mainprod h3
+.mainprod p , .mainprod ul , .mainprod li , .mainprod h3 , .mainprod h2
 {
   margin-top: 1em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .mainprod li
 {
   margin-left: 2em;
 }
-
-.mainprod ul
+.mainprod a
 {
+  float: right;
   margin-bottom: 5em;
 }
 /*
