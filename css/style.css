@@ -274,7 +274,50 @@ iframe /*google map*/
   border: 3px solid blue;
   border-radius: 7%;
   margin-top: 2em;
+  margin-bottom: 5em;
 }
+
+.tarif td ,.tarif th /* style for tab in piscine.html*/
+{
+  border: 1px solid black;
+  width: 10em;
+  height: 3em;
+  text-align: center;
+}
+
+.tarif /*tab from piscine.html*/
+{
+  border-collapse: collapse;
+  margin-left: 6%;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.blue /*blue color for main element in table from piscine.html*/
+{
+  background-color: skyblue;
+}
+
+.annexe /*article with title , figure and p in produit.html*/
+{
+    max-width: 20%;
+    max-height:10em;
+    margin: 3em;
+    display: inline-block;
+}
+
+.annexefig
+{
+  width: 100%;
+  height:70%;
+}
+
+.red
+{
+  color: red;
+  text-align: center;
+}
+
 /*
 
 end main rules
